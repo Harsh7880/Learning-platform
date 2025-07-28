@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const COURSE_PROGRESS_API = "learning-platform-api-three.vercel.app/progress";
+const COURSE_PROGRESS_API = "https://learning-platform-api-three.vercel.app/api/v1/progress";
 
 export const courseProgressApi = createApi({
   reducerPath: "courseProgressApi",

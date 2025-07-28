@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const COURSE_API = "learning-platform-api-three.vercel.app/course";
+const COURSE_API = "https://learning-platform-api-three.vercel.app/api/v1/course";
 
 export const courseApi = createApi({
   reducerPath: "courseApi",

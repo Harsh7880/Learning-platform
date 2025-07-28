@@ -1,7 +1,7 @@
 import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 import { userLoggedIn, userLoggedOut } from "../authSlice";
 
-const USER_API = "learning-platform-api-three.vercel.app/user/"
+const USER_API = "https://learning-platform-api-three.vercel.app/api/v1/user/"
 
 
 export const authApi = createApi({
