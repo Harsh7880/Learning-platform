@@ -23,7 +23,6 @@ app.use(cookieParser());
 
 app.use(cors({
     origin: [
-  "http://localhost:5173", // Vite dev server
   "https://learning-platform-app-ochre.vercel.app"
    ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
