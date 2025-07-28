@@ -22,9 +22,10 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://learning-platform-app-ochre.vercel.app/",
     credentials:true
 }));
+
  
 // apis
 app.use("/api/v1/media", mediaRoute);
