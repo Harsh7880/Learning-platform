@@ -26,7 +26,7 @@ app.use(cors({
   "http://localhost:5173", // Vite dev server
   "https://learning-platform-app-ochre.vercel.app"
    ],
-      methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     credentials:true
 }));
 
