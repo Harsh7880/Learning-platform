@@ -38,8 +38,14 @@ app.use("/api/v1/purchase", purchaseRoute);
 app.use("/api/v1/progress", courseProgressRoute);
  
  
+// Health check route (optional but useful)
+app.get("/", (req, res) => {
+  res.send("🚀 Server is running successfully!");
+});
+
+// Server listen
 app.listen(PORT, () => {
-    console.log(`Server listen at port ${PORT}`);
-})
-
-
+  console.log("------------------------------------------------");
+  console.log(`✅ Server successfully started on http://localhost:${PORT}`);
+  console.log("------------------------------------------------");
+});
